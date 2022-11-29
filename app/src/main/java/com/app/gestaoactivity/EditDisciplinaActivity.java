@@ -58,9 +58,8 @@ public class EditDisciplinaActivity extends AppCompatActivity {
                         professor = document.toObject(Professor.class);
                         listaProf.add(professor);
                     }
-                    ArrayAdapter<String> arrayAdapter = new ArrayAdapter(EditDisciplinaActivity.this, android.R.layout.simple_spinner_dropdown_item, listaProf);
+                    ArrayAdapter<Professor> arrayAdapter = new ArrayAdapter<>(EditDisciplinaActivity.this, android.R.layout.simple_spinner_dropdown_item, listaProf);
                     spProfessor.setAdapter(arrayAdapter);
-                    //spProfessor.setSelection(arrayAdapter.getPosition(disciplina.getIdProfessor()));
                 }
             }
         });
