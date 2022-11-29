@@ -28,7 +28,6 @@ public class AlunoActivity extends AppCompatActivity {
     private EditText edNome, edIdade, edEmail;
     private ListView listView;
     private FirebaseFirestore db = FirebaseFirestore.getInstance();
-    private String user;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +37,6 @@ public class AlunoActivity extends AppCompatActivity {
         edNome = findViewById(R.id.edNome);
         edIdade = findViewById(R.id.edIdade);
         edEmail = findViewById(R.id.edEmail);
-        user = FirebaseAuth.getInstance().getCurrentUser().getUid();
 
         listView = findViewById(R.id.listView);
     }
