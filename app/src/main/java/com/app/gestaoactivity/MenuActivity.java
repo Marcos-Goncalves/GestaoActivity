@@ -42,6 +42,16 @@ public class MenuActivity extends AppCompatActivity {
         });
     }
 
+    public void menuDisciplina(View view){
+        Intent intent = new Intent(getApplicationContext(), DisciplinaActivity.class);
+        startActivity(intent);
+    }
+
+    public void menuMatricula(View view){
+        Intent intent = new Intent(getApplicationContext(), MatriculaActivity.class);
+        startActivity(intent);
+    }
+
     public void menuProfessor(View view){
         Intent intent = new Intent(getApplicationContext(), ProfessorActivity.class);
         startActivity(intent);
