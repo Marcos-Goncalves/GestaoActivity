@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "363611586334",
+    "project_id": "gestaoactivity",
+    "storage_bucket": "gestaoactivity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363611586334:android:952e541e1f25f2f435530f",
+        "android_client_info": {
+          "package_name": "com.app.gestaoactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363611586334-l3nskisk8seb6aif8uh1b02mhmc0kogr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSLXPZPnpb9FpqvtZiT8b4jLd-1YskGUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363611586334-l3nskisk8seb6aif8uh1b02mhmc0kogr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
